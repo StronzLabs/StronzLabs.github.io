@@ -1,0 +1,28 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 2.5rem;
+    background-color: var(--accent-color);
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    color: black;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.button .download-icon {
+    width: auto;
+    height: 60px;
+    margin-right: 20px;
+    filter: brightness(0);
+}
+
+.button-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}

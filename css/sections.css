@@ -1,0 +1,19 @@
+.sections {
+    margin: 20px;
+    margin-top: 125px;
+}
+
+.sections .heading {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.sections .hilight {
+    font-size: 1.25rem;
+}
+
+.sections .gray-out {
+    color: var(--text-accent-color);
+}

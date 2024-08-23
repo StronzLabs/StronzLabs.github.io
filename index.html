@@ -1,1 +1,66 @@
-test
+<!DOCTYPE html>
+<html>
+<head>
+    <title>StronzLabs</title>
+    <link rel="icon" type="image/x-icon" href="favicons/StronzLabs.ico">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="description" content="StronzLabs è un'organizzazione dedicata allo sviluppo di applicazioni open source." />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://stronzlabs.github.io/" />
+    <meta property="og:title" content="StronzLabs" />
+    <meta property="og:description" content="StronzLabs è un'organizzazione dedicata allo sviluppo di applicazioni open source." />
+    <meta property="og:image" content="https://stronzlabs.github.io/img/StronzLabs.png" />
+
+    <script src="js/navbar.js"></script>
+</head>
+<body>
+    <div class="topbar">
+        <div class="background"></div>
+
+        <a href="#">
+            <img class="logo" src="svg/StronzLabs.svg">
+        </a>
+        <a class="title" href="#">StronzLabs</a>
+
+        <div class="navbar-button" onclick="toggleNavbar()">
+            <div class="line"></div>
+        </div>
+        
+        <div class="nav-links">
+            <a href="#Informazioni">Informazioni</a>
+            <a href="#Applicazioni">Applicazioni</a>
+            <a href="#Contribuisci">Contribuisci</a>
+        </div>
+    </div>
+
+    <div class="sections">
+        <section id="Informazioni" class="hilight">
+            <a href="#Informazioni" class="heading">Informazioni</a>
+            <p>
+                StronzLabs è un'organizzazione dedicata allo sviluppo di applicazioni open source.<br>
+                Si concentra sulla creazione di soluzioni di accessibilità fruibili su diverse piattaforme.
+            </p>
+        </section>
+       
+        <hr>
+        <section id="Applicazioni">
+            <a href="#Applicazioni" class="heading">Applicazioni</a>
+            <p class="button-grid">
+                <a class="button" href="/Stronzflix">
+                    <img class="download-icon" src="svg/Stronzflix.svg">
+                    <span>Stronzflix</span>
+                </a>
+            </p>
+        </section>
+
+        <hr>
+        <section id="Contribuisci">
+            <a href="#Contribuisci" class="heading">Contribuisci</a>
+            <p>
+                Se hai interesse a contribuire ai progetti, puoi inviare una pull request su <a href="https://github.com/StronzLabs">GitHub</a>.
+            </p>
+        </section>
+    </div>
+</body>
+</html>

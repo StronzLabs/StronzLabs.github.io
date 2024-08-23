@@ -1,0 +1,21 @@
+html {
+    scroll-behavior: smooth;  
+    scroll-padding-top: 125px;
+}
+
+body {
+    margin: 0;
+    background-color: var(--background-color);
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+a {
+    color: var(--accent-color);
+}
+
+hr {
+    margin: 20px -2px;
+    border: 0;
+    border-top: 1px solid var(--text-accent-color);
+}
