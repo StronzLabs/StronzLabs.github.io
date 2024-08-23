@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stronzflix</title>
+    <link rel="icon" type="image/x-icon" href="/favicons/Stronzflix.ico">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <meta name="description" content="Stronzflix è un'applicazione open source per la visualizzazione di contenuti multimediali in streaming." />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://stronzlabs.github.io/Stronzflix/" />
+    <meta property="og:title" content="Stronzflix" />
+    <meta property="og:description" content="Stronzflix è un'applicazione open source per la visualizzazione di contenuti multimediali in streaming." />
+    <meta property="og:image" content="https://stronzlabs.github.io/img/Stronzflix.png" />
+
+    <script src="/js/navbar.js"></script>
+    <script src="/js/collapsibles.js"></script>
+</head>
+<body>
+    <div class="topbar">
+        <div class="background"></div>
+
+        <a href="/">
+            <img class="logo" src="/svg/StronzLabs.svg">
+        </a>
+        <a class="title" href="/Stronzflix">Stronzflix</a>
+
+        <div class="navbar-button" onclick="toggleNavbar()">
+            <div class="line"></div>
+        </div>
+        
+        <div class="nav-links">
+            <a href="javascript:focusCollapsible('Android')">Android</a>
+            <a href="javascript:focusCollapsible('Windows')">Windows</a>
+            <a href="javascript:focusCollapsible('Linux')">Linux</a>
+            <a href="javascript:focusCollapsible('Mac')">Mac</a>
+            <a href="javascript:focusCollapsible('Altre_Opzioni')">Altre Opzioni</a>
+        </div>
+    </div>
+
+    <div class="sections">
+        <section id="Android" class="collapsible">
+            <a href="javascript:toggleCollapsible('Android')" class="heading collapsible-button">Android</a>
+            <div class="collapsible-content">
+                <div style="background-color: yellow; color: black; padding: 20px; font-weight: bold;">
+                    Qusta pagina è ancora in fase di sviluppo. Torna più tardi.
+                </div>
+            </div>
+        </section>
+
+        <hr>
+        <section id="Windows" class="collapsible hilight">
+            <a href="javascript:toggleCollapsible('Windows')" class="heading collapsible-button">Windows</a>
+            <div class="collapsible-content">
+                <p>
+                    Una volta scaricato il file, il browser potrebbe identificarlo come pericoloso. Per continuare il download, clicca su "Mantieni" o "Conserva" (o simili).
+                </p>
+                <img src="/img/Stronzflix/windows/mantieni.png">
+                <p>
+                    In seguito, aprendo il file, potrebbe apparire una finestra di avviso. Per continuare l'installazione, clicca su "Esegui".
+                </p>
+                <img src="/img/Stronzflix/windows/esegui.png">
+                <p>
+                    Infine, è sufficente seguire le istruzioni del programma di installazione.
+                </p>
+            </div>
+        </section>
+
+        <hr>
+        <section id="Linux" class="collapsible">
+            <a href="javascript:toggleCollapsible('Linux')" class="heading collapsible-button">Linux</a>
+            <div class="collapsible-content">
+                <div style="background-color: yellow; color: black; padding: 20px; font-weight: bold;">
+                    Qusta pagina è ancora in fase di sviluppo. Torna più tardi.
+                </div>
+            </div>
+        </section>
+
+        <hr>
+        <section id="Mac" class="collapsible">
+            <a href="javascript:toggleCollapsible('Mac')" class="heading collapsible-button">Mac</a>
+            <div class="collapsible-content">
+                <div style="background-color: yellow; color: black; padding: 20px; font-weight: bold;">
+                    Qusta pagina è ancora in fase di sviluppo. Torna più tardi.
+                </div>
+            </div>
+        </section>
+
+        <hr>
+        <section id="Altre_Opzioni" class="collapsible">
+            <a href="javascript:toggleCollapsible('Altre_Opzioni')" class="heading collapsible-button">Altre Opzioni</a>
+            <div class="collapsible-content">
+                <p>
+                    Altre opzioni di download per le piattaforme sopraccitate sono disponibili nella <a href="https://github.com/StronzLabs/Stronzflix/releases">sezione dedicata</a>.
+                </p>
+                <p>
+                    Se la tua piattaforma non è ancora supportata, segnalala su <a href="https://github.com/StronzLabs/Stronzflix">GitHub</a>.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

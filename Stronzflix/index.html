@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stronzflix</title>
+    <link rel="icon" type="image/x-icon" href="favicons/Stronzflix.ico">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <meta name="description" content="Stronzflix è un'applicazione open source per la visualizzazione di contenuti multimediali in streaming." />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://stronzlabs.github.io/Stronzflix/" />
+    <meta property="og:title" content="Stronzflix" />
+    <meta property="og:description" content="Stronzflix è un'applicazione open source per la visualizzazione di contenuti multimediali in streaming." />
+    <meta property="og:image" content="https://stronzlabs.github.io/img/Stronzflix.png" />
+
+    <script src="/js/navbar.js"></script>
+    <script src="/js/download-buttons.js" defer></script>
+    <script src="/js/changelogs.js" defer></script>
+</head>
+<body>
+    <div class="topbar">
+        <div class="background"></div>
+
+        <a href="/">
+            <img class="logo" src="/svg/StronzLabs.svg">
+        </a>
+        <a class="title" href="#">Stronzflix</a>
+
+        <div class="navbar-button" onclick="toggleNavbar()">
+            <div class="line"></div>
+        </div>
+        
+        <div class="nav-links">
+            <a href="#Informazioni">Informazioni</a>
+            <a href="#Download">Download</a>
+            <a href="#Contribuisci">Contribuisci</a>
+            <a href="#Crediti">Crediti</a>
+            <a href="#Changelog">Changelog</a>
+        </div>
+    </div>
+
+    <div class="sections">
+        <section id="Informazioni" class="hilight">
+            <a href="#Informazioni" class="heading">Informazioni</a>
+            <p>
+                Stronzflix è un'applicazione open source per la visualizzazione di contenuti multimediali in streaming.<br>
+                L'applicazione è compilata nativamente e può essere eseguita su diverse piattaforme. Anche se al momento sono supportate solo le piattaforme elencate di seguito, il team di sviluppo sta lavorando per estendere il supporto ad altre piattaforme in futuro.
+            </p>
+        </section>
+    
+        <hr>
+        <section id="Download">
+            <a href="#Download" class="heading">Download</a>
+            <p class="button-grid">
+                <a href=".apk" rel="noopener noreferrer" class="button">
+                    <img src="/svg/android.svg" alt="Android" class="download-icon">
+                    <span>Download Android</span>
+                </a>
+                <a href=".msi" rel="noopener noreferrer" class="button">
+                    <img src="/svg/windows.svg" alt="Windows" class="download-icon">
+                    <span>Download Windows</span>
+                </a>
+                <a href="Linux" rel="noopener noreferrer" class="button">
+                    <img src="/svg/linux.svg" alt="Linux" class="download-icon">
+                    <span>Download Linux</span>
+                </a>
+                <a href="Mac" rel="noopener noreferrer" class="button">
+                    <img src="/svg/macos.svg" alt="Mac" class="download-icon">
+                    <span>Download Mac</span>
+                </a>
+            </p>
+            <p>
+                Se riscontri difficoltà prova a consulare la <a href="/Stronzflix/guida.html">guida di installazione</a>.
+            </p> 
+            <p>
+                Altre opzioni di download per le piattaforme sopraccitate sono disponibili nella <a href="https://github.com/StronzLabs/Stronzflix/releases">sezione dedicata</a>.
+            </p>
+        </section>
+
+        <hr>
+        <section id="Contribuisci">
+            <a href="#Contribuisci" class="heading">Contribuisci</a>
+            <p>
+                Se hai interesse a contribuire al progetto, puoi inviare una pull request su <a href="https://github.com/StronzLabs/Stronzflix">GitHub</a>.
+            </p>
+        </section>
+
+        <hr>
+        <section class="gray-out" id="Crediti">
+            <a href="#Crediti" class="heading">Crediti</a>
+            <p>
+                Stronzflix è un progetto open source rilasciato sotto licenza GNU GPLv3.<br>Il codice sorgente è disponibile su <a href="https://github.com/StronzLabs/Stronzflix">GitHub</a>.
+            </p>
+            <p>
+                Gli sviluppatori di questa applicazione non ospitano né distribuiscono nessuno dei contenuti visualizzabili tramite la stessa né hanno alcuna affiliazione con i fornitori di contenuti.
+            </p>
+        </section>
+
+        <hr>
+        <section id="Changelog">
+            <a href="#Changelog" class="heading">Changelog</a>
+            <div id="changelog"></div>
+        </section>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
