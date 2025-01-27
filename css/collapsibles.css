@@ -28,3 +28,13 @@
     border-radius: 5px;
     box-sizing: border-box;
 }
+
+.collapsible-content div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.collapsible-content div img {
+    margin: 0;
+}
